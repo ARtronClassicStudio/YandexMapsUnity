@@ -1,7 +1,8 @@
 # Yandex Maps Unity Beta
 Плагин Яндекс карты(Статическая) для Unity.
 
-Так как Яндекс карты является русскоязычным сервисом то нет смысла переводить страницу и комментари в dll на английский язык.
+Так как Яндекс карты является русскоязычным сервисом то нет смысла переводить страницу и комментари в dll на английский язык. 
+Если возникнут вопросы то пишите [тут](https://github.com/ARtronClassicStudio/YandexMapsUnity/issues)
 # Установка:
 [Cкачайте пакет](https://github.com/ARtronClassicStudio/YandexMapsUnity/releases/download/Beta/YandexMapsBeta.unitypackage) и импортируйте его, после компиляции dll установка будет завершена. Смотрите [примеры](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) по использованию API.
 
