@@ -7,6 +7,8 @@
 # Примеры:
 
 # Загрузка карты по кнопке (UI)
+![](Resources/1.gif)
+
 ```c#
 using System.Collections;
 using UnityEngine;
@@ -38,6 +40,8 @@ public class Sample : MonoBehaviour
 }
 ```
 # Добавление маркеров на карте
+![](Resources/2.gif)
+
 ```C#
 using System.Collections;
 using System.Collections.Generic;
@@ -72,7 +76,8 @@ public class Sample : MonoBehaviour
 }
 ```
 
-# Доступный список Yandex API:
+
+# Все доступные Yandex API:
 ```C#
 # Map.EnabledLayer : bool 
 Map.GetTexture : Texture (Только для чтение)
