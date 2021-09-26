@@ -4,26 +4,6 @@
 # Системные Требования:
 не ниже Unity 2020.3.14f1 (LTS)
 
-# Доступный список API:
-
-```C#
-Map.EnabledLayer : bool 
-Map.GetTexture : Texture (Только для чтение)
-Map.GetTexture2D : Texture2D (Только для чтение)
-Map.Height : int 
-Map.Width : int
-Map.Latitude : float
-Map.Longitude : float
-Map.LoadMap() : Метод
-Map.UpdateLoadMap() : Метод
-Map.SetMarker : List<Vector2>()
-Map.SetTypeMap : enum
-Map.SetTypeMapLayer : enum
-Map.Size : int
-Map.TypeMap : enum   
-Map.TypeMapLayer : enum
-```
-
 # Примеры:
 
 # Загрузка карты по кнопке (UI)
@@ -90,4 +70,23 @@ public class Sample : MonoBehaviour
 
     }
 }
+```
+
+# Доступный список Yandex API:
+```C#
+# Map.EnabledLayer : bool 
+Map.GetTexture : Texture (Только для чтение)
+Map.GetTexture2D : Texture2D (Только для чтение)
+Map.Height : int 
+Map.Width : int
+Map.Latitude : float
+Map.Longitude : float
+Map.LoadMap() : Метод
+Map.UpdateLoadMap() : Метод
+Map.SetMarker : List<Vector2>()
+Map.SetTypeMap : enum
+Map.SetTypeMapLayer : enum
+Map.Size : int
+Map.TypeMap : enum   
+Map.TypeMapLayer : enum
 ```
