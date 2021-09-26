@@ -1,16 +1,16 @@
-# Yandex Maps Unity
-Яндекс карты(Статическая) для Unity.
+# Yandex Maps Unity Beta
+Плагин Яндекс карты(Статическая) для Unity.
 
 Так как Яндекс карты является русскоязычным сервисом то нет смысла переводить страницу и комментари в dll на английский язык.
 # Установка:
 [Cкачайте пакет]() и импортируйте его, после компиляции dll установка будет завершена. Смотрите [примеры](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) по использованию API.
 
 # Системные Требования:
-не ниже Unity 2020.3.14f1 (LTS)
+не ниже Unity 2020.3.14f1 (LTS).
 
 # Примеры:
 
-# Загрузка карты по кнопке (UI)
+# Загрузка карты по кнопке (UI):
 ![](Resources/1.gif)
 
 ```c#
@@ -43,7 +43,7 @@ public class Sample : MonoBehaviour
 
 }
 ```
-# Добавление маркеров на карте
+# Добавление маркеров на карте:
 ![](Resources/2.gif)
 
 ```C#
@@ -81,7 +81,7 @@ public class Sample : MonoBehaviour
 ```
 
 
-# Все доступные Yandex API:
+# Все доступные на данный момент Yandex API:
 ```C#
 # Map.EnabledLayer : bool 
 Map.GetTexture : Texture (Только для чтение)
