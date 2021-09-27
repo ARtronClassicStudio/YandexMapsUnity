@@ -43,7 +43,7 @@ public class Sample : MonoBehaviour
 
 }
 ```
-# Добавление маркеров на карте:
+# Добавление маркеров на карту:
 ![](Resources/2.gif)
 
 ```C#
