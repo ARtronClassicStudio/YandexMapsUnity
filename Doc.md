@@ -3,7 +3,7 @@ Plugin Yandex Maps (Static) for Unity.
 
 If you have any questions then write [here](https://github.com/ARtronClassicStudio/YandexMapsUnity/issues)
 # Installation:
-[Download the package](https://github.com/ARtronClassicStudio/YandexMapsUnity/releases/download/Beta/YandexMapsBeta.unitypackage) and import it, after compiling the dll, the installation will be completed. See [examples](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) or watch [video tutorial](https://youtu.be/RWlZnqLix_4).
+[Download the package from Assets Store]() and import it, after compiling the dll, the installation will be completed. See [examples](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) or watch [video tutorial](https://youtu.be/RWlZnqLix_4).
 # System requirements:
 At least Unity 2020.3.14f1 (LTS).
 
