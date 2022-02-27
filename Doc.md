@@ -1,20 +1,19 @@
 # Yandex Maps Unity Beta
-Плагин Яндекс карты(Статическая) для Unity.
+Plugin Yandex Maps (Static) for Unity.
 
-Так как Яндекс карты является русскоязычным сервисом то нет смысла переводить страницу и комментари в dll на английский язык. 
-Если возникнут вопросы то пишите [тут](https://github.com/ARtronClassicStudio/YandexMapsUnity/issues)
-# Установка:
-[Cкачайте пакет](https://github.com/ARtronClassicStudio/YandexMapsUnity/releases/download/Beta/YandexMapsBeta.unitypackage) и импортируйте его, после компиляции dll установка будет завершена. Смотрите [примеры](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) или посмотрите [видео урок](https://youtu.be/RWlZnqLix_4).
-# Системные Требования:
-Не ниже Unity 2020.3.14f1 (LTS).
+If you have any questions then write [here](https://github.com/ARtronClassicStudio/YandexMapsUnity/issues)
+# Installation:
+[Download the package](https://github.com/ARtronClassicStudio/YandexMapsUnity/releases/download/Beta/YandexMapsBeta.unitypackage) and import it, after compiling the dll, the installation will be completed. See [examples](https://github.com/ARtronClassicStudio/YandexMapsUnity#%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%BF%D0%BE-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B5-ui) or watch [video tutorial](https://youtu.be/RWlZnqLix_4).
+# System requirements:
+At least Unity 2020.3.14f1 (LTS).
 
-# Поддержка платформ:
-Все платформы ✅
+# Platform support:
+All platforms ✅
 
 
-# Примеры:
+# Examples:
 
-# Загрузка карты по кнопке (UI):
+# Download map by button (UI):
 ![](Resources/1.gif)
 
 ```c#
@@ -47,7 +46,7 @@ public class Sample : MonoBehaviour
 
 }
 ```
-# Добавление маркеров на карту:
+# Adding markers to the map:
 ![](Resources/2.gif)
 
 ```C#
@@ -85,7 +84,7 @@ public class Sample : MonoBehaviour
 ```
 
 
-# Все доступные на данный момент Yandex API:
+# All currently available Yandex APIs:
 ```C#
 # Map.EnabledLayer : bool 
 Map.GetTexture : Texture (Только для чтение)
