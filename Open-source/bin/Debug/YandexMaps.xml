@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YandexMaps</name>
+    </assembly>
+    <members>
+        <member name="T:YandexMaps.Map">
+            <summary>
+            Базовый класс
+            </summary>
+        </member>
+        <member name="F:YandexMaps.Map.SetMarker">
+            <summary>
+            Добавление маркеров,которые требуется отобразить на карте. (Максимальное количество маркеров доступно 100)
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.Longitude">
+            <summary>
+            Долгота.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.Latitude">
+            <summary>
+            широта.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.Size">
+            <summary>
+            Уровень масштабирования карты от 0 до 17.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.Width">
+            <summary>
+            Ширина запрашиваемого изображения карты (в пикселах) доступный максимальный размер ширины 650.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.Height">
+            <summary>
+            Высота запрашиваемого изображения карты (в пикселах) доступный максимальный размер высоты 450.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.SetTypeMap">
+            <summary>
+            Тип картов.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.SetTypeMapLayer">
+            <summary>
+            Тип слоёв. Прежде тем чтобы использовать слои, включите параметр EnabledLayer = true;
+            </summary>
+        </member>
+        <member name="T:YandexMaps.Map.TypeMap">
+            <summary>
+            Тип карты.
+            </summary>
+        </member>
+        <member name="F:YandexMaps.Map.TypeMap.map">
+            <summary>
+            Схема местности и названия географических объектов.
+            </summary>
+        </member>
+        <member name="F:YandexMaps.Map.TypeMap.sat">
+            <summary>
+            Местность, сфотографированная со спутника.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.EnabledLayer">
+            <summary>
+            Включение/Выключение слоёв.
+            </summary>
+        </member>
+        <member name="T:YandexMaps.Map.TypeMapLayer">
+            <summary>
+            Тип карты слоёв.
+            </summary>
+        </member>
+        <member name="F:YandexMaps.Map.TypeMapLayer.skl">
+            <summary>
+            Слой названия географических объектов.
+            </summary>
+        </member>
+        <member name="F:YandexMaps.Map.TypeMapLayer.trf">
+            <summary>
+            Слой пробок.
+            </summary>
+        </member>
+        <member name="P:YandexMaps.Map.GetTexture">
+            <summary>
+            Получение текстуры
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:YandexMaps.Map.GetTexture2D">
+            <summary>
+            Получение текстуры 2D
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:YandexMaps.Map.LoadMap">
+            <summary>
+            Загружает карту один раз ( не рекомендуется запускать в методе Update(), для этого есть метод UpdateLoadMap() ).
+            </summary>
+        </member>
+        <member name="M:YandexMaps.Map.UpdateLoadMap">
+            <summary>
+            Загружает карту и обновляет каждый раз ( не рекомендуется запускать в методе Update() ).
+            </summary>
+        </member>
+        <member name="M:YandexMaps.Map.UpdateLoadMap(System.Single)">
+            <summary>
+            Загружает карту и обновляет каждый раз в заданном тайм-аутом ( не рекомендуется запускать в методе Update() ).
+            </summary>
+            <param name="timeout">тайм-аут.</param>
+        </member>
+    </members>
+</doc>

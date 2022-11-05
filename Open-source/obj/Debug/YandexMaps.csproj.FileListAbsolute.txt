@@ -1,0 +1,7 @@
+C:\Users\artro\source\repos\YandexMaps\bin\Debug\YandexMaps.dll
+C:\Users\artro\source\repos\YandexMaps\bin\Debug\YandexMaps.pdb
+C:\Users\artro\source\repos\YandexMaps\obj\Debug\YandexMaps.csprojAssemblyReference.cache
+C:\Users\artro\source\repos\YandexMaps\obj\Debug\YandexMaps.csproj.CoreCompileInputs.cache
+C:\Users\artro\source\repos\YandexMaps\obj\Debug\YandexMaps.dll
+C:\Users\artro\source\repos\YandexMaps\obj\Debug\YandexMaps.pdb
+C:\Users\artro\source\repos\YandexMaps\bin\Debug\YandexMaps.xml
